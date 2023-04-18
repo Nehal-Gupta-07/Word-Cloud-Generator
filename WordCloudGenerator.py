@@ -1,5 +1,5 @@
 import spacy
-from wordcloud import WordCloud, STOPWORDS
+from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import pandas as pd
 nlp = spacy.load("en_core_web_sm")
